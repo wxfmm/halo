@@ -27,20 +27,26 @@
 > 其他地址：https://halo.run/archives/download.html
 
 ```bash
-curl -L https://github.com/halo-dev/halo/releases/download/v1.4.2/halo-1.4.2.jar --output halo-latest.jar
+curl -L https://codeload.github.com/wxfmm/halo/tar.gz/1.4.2 --output halo-latest.jar
 ```
 
 或者
 
 ```bash
-wget https://github.com/halo-dev/halo/releases/download/v1.4.2/halo-1.4.2.jar -O halo-latest.jar
+wget https://codeload.github.com/wxfmm/halo/tar.gz/1.4.2 -O halo-latest.jar
 ```
 
 ### 启动 Halo
 
+- 当前jar包默认使用的mysql数据库，需配置数据库地址
+
+
+- 如果默认使用h2数据库，可直接运行
 ```bash
 java -jar halo-latest.jar
 ```
+
+###
 
 详细部署文档请移步：<https://halo.run/archives/install-quick-start.html>
 
